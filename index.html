@@ -1,88 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Nuestra Boda</title>
 
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
 body{
-    margin:0;
-    background:#f5f1e9;
+    background:#F5F1E9;
     font-family:Georgia, serif;
-    text-align:center;
+    color:#444;
 }
 
 .container{
-    max-width:420px;
+    max-width:430px;
     margin:auto;
-    padding:20px;
 }
 
-img{
+.hero{
+    padding:20px;
+    text-align:center;
+}
+
+.hero img{
     width:100%;
     border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
-.titulo{
-    color:#86694c;
-    font-size:52px;
-    margin:20px 0;
+.hero h1{
+    margin-top:25px;
+    color:#8C7152;
+    font-size:50px;
 }
 
 .fecha{
-    font-size:28px;
-    margin-bottom:30px;
+    margin-top:10px;
+    font-size:24px;
+    letter-spacing:4px;
 }
 
-.bloque{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    margin:20px 0;
-}
-
-.verde{
-    background:#405943;
+.arch{
+    background:#3F5B3F;
     color:white;
-    border-radius:180px 180px 0 0;
-    padding:40px 20px;
+    margin:25px 15px;
+    padding:50px 30px;
+    border-radius:220px 220px 0 0;
+    text-align:center;
 }
 
-.verde h2{
-    font-size:42px;
+.arch h2{
+    margin:25px 0;
+    font-size:46px;
+    font-weight:normal;
+}
+
+.arch p{
+    font-size:20px;
+    line-height:1.5;
+}
+
+.card{
+    background:white;
+    margin:20px;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#8C7152;
+    margin-bottom:15px;
+    font-size:32px;
+}
+
+.card p{
+    font-size:22px;
 }
 
 .footer{
-    background:#405943;
+    background:#3F5B3F;
     color:white;
+    margin-top:30px;
     padding:30px;
-    border-radius:180px 180px 0 0;
+    border-radius:220px 220px 0 0;
+    text-align:center;
 }
 
+.footer img{
+    width:100%;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.footer h2{
+    font-size:36px;
+    font-weight:normal;
+    line-height:1.3;
+}
+
+.footer p{
+    margin-top:20px;
+    font-size:28px;
+}
 </style>
 
 </head>
-
 <body>
 
 <div class="container">
 
+<div class="hero">
+
 <img src="boda1.jpg" alt="Foto principal">
 
-<div class="titulo">
-NUESTRA BODA
-</div>
+<h1>NUESTRA BODA</h1>
 
 <div class="fecha">
 24 • 10 • 2026
 </div>
 
-<div class="verde">
+</div>
+
+<div class="arch">
 
 <p>
 Entre tantos caminos en el mundo,
@@ -102,39 +149,32 @@ nuestro enlace matrimonial.
 
 </div>
 
-<div class="bloque">
-
+<div class="card">
 <h3>Recepción</h3>
-
 <p>02:00 PM</p>
-
 </div>
 
-<div class="bloque">
-
+<div class="card">
 <h3>Ceremonia</h3>
-
 <p>02:30 PM</p>
-
 </div>
 
-<div class="bloque">
-
+<div class="card">
 <h3>Confirmación</h3>
-
 <p>
 Favor de confirmar asistencia antes del
 30 de septiembre de 2026.
 </p>
-
 </div>
 
 <div class="footer">
 
-<img src="boda2.jpg" alt="Foto secundaria">
+boda2.jpg
 
 <h2>
 Gracias por acompañarnos
+en este nuevo capítulo
+de nuestras vidas
 </h2>
 
 <p>
