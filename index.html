@@ -6,84 +6,128 @@
 
 <title>Nuestra Boda</title>
 
-https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap
+<link href="https://fonts.googleapismily=Cormorant+Garamond:wght@300;400;500;600&display=swap
 
 <style>
 
-body{
+*{
 margin:0;
-background:#f6f1e9;
-font-family:'Cormorant Garamond', serif;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#f5f1e9;
+font-family:'Cormorant Garamond',serif;
+color:#4d4d4d;
 }
 
 .container{
-max-width:420px;
+max-width:430px;
 margin:auto;
-background:#f6f1e9;
+background:#f5f1e9;
 }
 
 .hero{
-padding:60px 20px;
 text-align:center;
+padding:50px 20px;
+}
+
+.hero img{
+width:100%;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
 .hero h1{
+margin-top:25px;
 font-size:52px;
-color:#8f7457;
 font-weight:400;
+color:#8c7152;
 }
 
 .fecha{
-margin-top:30px;
-font-size:24px;
+font-size:28px;
 letter-spacing:5px;
+margin-top:10px;
 }
+
+/* ARCO */
 
 .arch{
-background:#3c5b43;
-color:white;
-padding:40px 25px;
-text-align:center;
+background:#3f5b3f;
+margin:35px 15px;
 border-radius:220px 220px 0 0;
-margin:30px 20px;
-}
-
-.arch h2{
-font-size:48px;
-font-weight:300;
-line-height:1.2;
+padding:40px 30px;
+text-align:center;
+color:white;
 }
 
 .arch p{
 font-size:20px;
+line-height:1.4;
 }
+
+.arch h2{
+margin:20px 0;
+font-size:46px;
+font-weight:300;
+}
+
+/* TARJETAS */
 
 .card{
 background:white;
-padding:30px;
 margin:20px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
+padding:30px;
+border-radius:12px;
 text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,.08);
 }
 
 .card h3{
-font-size:32px;
-color:#8f7457;
+font-size:34px;
+color:#8c7152;
+margin-bottom:10px;
 }
 
+.card p{
+font-size:22px;
+line-height:1.6;
+}
+
+.divisor{
+width:80px;
+height:2px;
+background:#c8b299;
+margin:15px auto;
+}
+
+/* FOOTER */
+
 .footer{
-margin-top:40px;
-background:#3c5b43;
+background:#3f5b3f;
 color:white;
-padding:50px 30px;
-text-align:center;
+margin-top:30px;
+padding:40px 20px;
 border-radius:220px 220px 0 0;
+}
+
+.footer img{
+width:100%;
+border-radius:12px;
+margin-bottom:25px;
 }
 
 .footer h2{
 font-size:40px;
 font-weight:300;
+line-height:1.3;
+}
+
+.footer p{
+font-size:24px;
+margin-top:25px;
 }
 
 </style>
@@ -93,6 +137,8 @@ font-weight:300;
 <div class="container">
 
 <section class="hero">
+
+jpg" alt="Foto principal">
 
 <h1>NUESTRA BODA</h1>
 
@@ -116,7 +162,7 @@ ALEXIS
 </h2>
 
 <p>
-Tenemos el honor de invitarte a nuestro enlace matrimonial.
+Tenemos el honor de invitarte a celebrar nuestro enlace matrimonial.
 </p>
 
 </section>
@@ -125,9 +171,17 @@ Tenemos el honor de invitarte a nuestro enlace matrimonial.
 
 <h3>Recepción</h3>
 
+<div class="divisor"></div>
+
 <p>02:00 PM</p>
 
+</div>
+
+<div class="card">
+
 <h3>Ceremonia</h3>
+
+<div class="divisor"></div>
 
 <p>02:30 PM</p>
 
@@ -137,13 +191,18 @@ Tenemos el honor de invitarte a nuestro enlace matrimonial.
 
 <h3>Confirmación</h3>
 
+<div class="divisor"></div>
+
 <p>
-Favor de confirmar asistencia antes del 30 de septiembre de 2026.
+Favor de confirmar asistencia antes del
+30 de Septiembre de 2026
 </p>
 
 </div>
 
-<div class="footer">
+<section class="footer">
+
+jpg" alt="Foto final">
 
 <h2>
 Gracias por acompañarnos
@@ -151,7 +210,11 @@ en este nuevo capítulo
 de nuestras vidas
 </h2>
 
-</div>
+<p>
+Johana & Alexis
+</p>
+
+</section>
 
 </div>
 
